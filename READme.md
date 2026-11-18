@@ -37,19 +37,19 @@ The system supports:
 ## Prerequisites
 
 - JDK 21+
-- Maven
+- Maven (optional, use the  mvnw wrapper in the repo if you dont want to install maven)
 - Git
 
 ## Build
 
 ```bash
-mvn clean package
+./mvnw clean package
 ```
 
 ## Run Tests
 
 ```bash
-mvn test
+./mvnw test
 ```
 
 ## Running the Application
